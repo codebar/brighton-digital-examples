@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'monda';
+        src: url('fonts/Monda-Bold.ttf') format('truetype');
+        src: url('fonts/Monda-Light.ttf') format('truetype');
+        src: url('fonts/Monda-Regular.ttf') format('truetype');
+}
 footer {
   // generic footer style
+  color: #191919;
+  font-family: 'monda', sans-serif;
+  background-color: #f5f6f7;
+  font-size: 1.2em;
+  text-align: center;
+  border-top: ;
+}
+
+footer .logo {
+  margin: 25px auto;
+  background-color: #fff;
 }
